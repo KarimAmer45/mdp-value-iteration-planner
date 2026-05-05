@@ -29,21 +29,21 @@ python example_test_case.py
 
 The example script writes utility and policy plots for the test case.
 
-## Result screenshots
+## Value-iteration output
 
 ![mdp-value-iteration-planner result screenshot](docs/results/result-screenshot.png)
 
 Utility map and greedy policy produced by value iteration on the example grid world.
 
 
-## What this demonstrates
+## MDP workflow
 
 - MDP value iteration with explicit transition, reward, and convergence behavior.
 - Policy extraction and visualization for a compact grid-world planning task.
 - A minimal Python structure that is easy to inspect for planning fundamentals.
 
 
-## Limitations and next steps
+## Planner limitations
 
 - The model is a small discrete grid world rather than a continuous robot planner.
 - Reward and transition assumptions are hand-authored for the example.
