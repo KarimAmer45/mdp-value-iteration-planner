@@ -42,11 +42,6 @@ def test_1(output_dir):
             grid_np,
             )
 
-def test_2(output_dir):
-    # TODO make your own tests
-    # make sure to check edge cases
-    pass
-
 if __name__ == '__main__':
     output_dir = ""
 
